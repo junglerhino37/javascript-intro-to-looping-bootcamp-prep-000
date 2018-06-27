@@ -29,7 +29,7 @@ function whileLoop(x){
   }
   return 'done'
   
-  doWhileLoop(x){
+function doWhileLoop(x){
     
     do{
       x.pop()
