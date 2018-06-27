@@ -2,6 +2,8 @@ var array=[];
 forLoop(array)
 console.log(array.length)
 
+var y=100*Math.random
+console.log(whileLoop)
 function forLoop(x){
   for(let i=0; i<25; i++){
     if (i===1)  {
@@ -12,4 +14,9 @@ function forLoop(x){
   }
 
   return x
+}
+
+function whileLoop(x){
+  
+  return 'done'
 }
