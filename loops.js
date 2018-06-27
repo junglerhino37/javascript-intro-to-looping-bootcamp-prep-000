@@ -1,8 +1,7 @@
 var array=[];
-forLoop(array)
-console.log(array.length)
-
 var y=Math.floor(100*Math.random())
+
+
 console.log(y)
 console.log(whileLoop(y))
 
