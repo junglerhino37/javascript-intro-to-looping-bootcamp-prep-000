@@ -22,7 +22,7 @@ function forLoop(x){
 
 
 function whileLoop(x){
-  while (x>=-1){
+  while (x>=0){
     console.log(x)
     x--
   }
