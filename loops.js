@@ -34,7 +34,7 @@ function doWhileLoop(x){
     do{
       x.pop()
       
-    }while (x.length>0)
+} while (maybeTrue());
     
     return 'false'
   }
@@ -45,6 +45,3 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
  
-do {
-  console.log('doo-bee-doo-bee-doo')
-} while (maybeTrue());
