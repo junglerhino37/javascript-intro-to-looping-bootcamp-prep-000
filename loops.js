@@ -1,8 +1,8 @@
-var Ar=[];
-forLoop(Ar)
-console.log(Ar)
+var array=[];
+forLoop(array)
+console.log(array)
 function forLoop(x){
   for(let i=0; i<25; i++){
-    Ar.push=i
+    x.push(i)
   }
 }
