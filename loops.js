@@ -1,7 +1,8 @@
-function forloop(x){
+var Ar=[];
+forLoop(Ar)
+
+function forLoop(x){
   for(let i=0; i<25; i++){
-    if (i===1){
-      
-    }else console
+    console.log(i)
   }
 }
