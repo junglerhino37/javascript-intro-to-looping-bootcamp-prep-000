@@ -2,7 +2,7 @@ var array=[];
 forLoop(array)
 console.log(array.length)
 
-var y=100*Math.random
+var y=100*Math.random()
 console.log(whileLoop)
 function forLoop(x){
   for(let i=0; i<25; i++){
