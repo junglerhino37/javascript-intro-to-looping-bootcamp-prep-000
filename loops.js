@@ -10,4 +10,6 @@ function forLoop(x){
       x.push(`I am ${i} strange loops.`)
     }
   }
+
+  return x
 }
