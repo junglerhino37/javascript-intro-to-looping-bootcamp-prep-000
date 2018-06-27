@@ -31,7 +31,11 @@ function whileLoop(x){
   
   doWhileLoop(x){
     
-    do
+    do{
+      x.pop()
+      
+    }while (x.length>0)
+    
     return 'false'
   }
 }
