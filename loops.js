@@ -28,17 +28,22 @@ function whileLoop(x){
     x--
   }
   return 'done'
-  
+}
+
+
+
+
 function doWhileLoop(x){
     
     do{
       x.pop()
       
-} while (maybeTrue());
+    } while (maybeTrue());
     
     return 'false'
-  }
+  
 }
+
 
 
 function maybeTrue() {
