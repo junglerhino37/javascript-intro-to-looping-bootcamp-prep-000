@@ -1,6 +1,6 @@
 var array=[];
 forLoop(array)
-console.log(array)
+console.log(array.length)
 
 function forLoop(x){
   for(let i=0; i<25; i++){
