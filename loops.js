@@ -28,4 +28,10 @@ function whileLoop(x){
     x--
   }
   return 'done'
+  
+  doWhileLoop(x){
+    
+    do
+    return 'false'
+  }
 }
